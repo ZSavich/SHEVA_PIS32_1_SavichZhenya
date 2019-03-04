@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Punisher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="logo hidden" id="logo"></div>
+        <section class="wrapper" id="wrapper">
+            <div class="frank" id="scene" data-pointer-events="auto">
+                <img class="photo" id="photo" data-depth="0.2" src="./img/frank.png" alt="Frank Castle">
+            </div>
+            <h1 class="title">The Punisher</h1>
+            <p class="desc">Name: Frank Castle</p>
+            <p class="desc">BirthDay: May 28, 1974</p>
+        </section>
+    </main>
+    <script src="scripts/main.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+        parallaxInstance.limitY = 1;
+        parallaxInstance.pointerEvents = false;
+    </script>
+</body>
+</html>
