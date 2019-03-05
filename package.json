@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya/issues"
   },
-  "homepage": "https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya#readme"
+  "homepage": "https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya#readme",
+  "dependencies": {
+    "create-react-app": "^2.1.5"
+  }
 }
