@@ -1,0 +1,19 @@
+{
+  "name": "sheva_pis32_1_savichzhenya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya/issues"
+  },
+  "homepage": "https://github.com/ZSavich/SHEVA_PIS32_1_SavichZhenya#readme"
+}
